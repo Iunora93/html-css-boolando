@@ -28,8 +28,6 @@
    .col {
       width: calc(100% / 3 - 30px);
       height: auto;
-      background-color: aqua;
-      border: 1px solid black;
       margin-right: 15px;
       margin-left: 15px;
       margin-top: 60px;
@@ -74,6 +72,7 @@
    .logo{
     width: 130px;
     height: auto;
+    margin-right: 130px
    }
 
    img {
@@ -85,3 +84,31 @@
       color: white;
    }
 
+   .sale {
+      color: red;
+   }
+
+   .discount {
+      text-decoration: line-through;
+   }
+
+   .red {
+      background-color: red;
+      color: white;
+      margin-right: 10px;
+   }
+
+   .green {
+      background-color: green;
+      color: white;
+      margin-right: 10px;
+   }
+
+   .heart {
+      background-color: white;
+   }
+
+   .into-image {
+      position: absolute;
+      display: flex;
+   }
