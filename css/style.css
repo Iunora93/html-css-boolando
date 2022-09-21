@@ -22,7 +22,7 @@
    }
 
    .col {
-      width: 380px;
+      width: 350px;
       height: auto;
       background-color: aqua;
       display: flex;
@@ -38,6 +38,7 @@
       justify-content: center;
       display: flex;
       flex-wrap: wrap;
+      margin: auto;
    }
 
    .container {
