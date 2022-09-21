@@ -96,19 +96,25 @@
       background-color: red;
       color: white;
       margin-right: 10px;
+      position: relative;
+      bottom: 100px;
    }
 
    .green {
       background-color: green;
       color: white;
       margin-right: 10px;
+      position: relative;
+      bottom: 100px;
    }
 
    .heart {
       background-color: white;
+      position: relative;
+    bottom: 520px;
+    left: 200px;
    }
 
    .into-image {
-      position: absolute;
       display: flex;
    }
