@@ -49,21 +49,25 @@
    .container {
     margin: auto;
     height: 70px;
-    max-width: 1200px;
     background-color: #ff6900;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center; 
+    padding-left: 150px;
+    padding-right: 160px;   
+    position: fixed;
+    margin-left: 20%;
    }
 
    .container-footer {
       margin: auto;
       height: 100px;
-      max-width: 1200px;
       background-color: black;
       display: flex;
       justify-content: space-between;
-      align-items: center;   
+      align-items: center; 
+      padding-left: 160px;
+    padding-right: 200px;  
    }
 
    .informativa-privacy {
@@ -97,7 +101,7 @@
       color: white;
       margin-right: 10px;
       position: relative;
-      bottom: 100px;
+      bottom: 50px;
    }
 
    .green {
@@ -105,14 +109,21 @@
       color: white;
       margin-right: 10px;
       position: relative;
-      bottom: 100px;
+      bottom: 50px;
    }
 
    .heart {
       background-color: white;
       position: relative;
-    bottom: 520px;
-    left: 200px;
+      bottom: 520px;
+      left: 200px;
+   }
+
+   .heart-diferent {
+      position: relative;
+      bottom: 520px;
+      left: 300px;
+      background-color: white;
    }
 
    .into-image {
