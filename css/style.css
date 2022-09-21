@@ -23,7 +23,7 @@
 
    .col {
       width: 380px;
-      height: 650px;
+      height: auto;
       background-color: aqua;
       display: flex;
       border: 1px solid black;
@@ -34,6 +34,7 @@
    }
 
    .container-image {
+      max-width: 1200px;
       justify-content: center;
       display: flex;
       flex-wrap: wrap;
@@ -67,7 +68,7 @@
     height: auto;
    }
 
+   h5 {
+      color: white;
+   }
 
-
-
-   
