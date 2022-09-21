@@ -26,15 +26,18 @@
    }
 
    .col {
-      width: 350px;
+      width: calc(100% / 3 - 30px);
       height: auto;
       background-color: aqua;
-      display: flex;
       border: 1px solid black;
       margin-right: 15px;
       margin-left: 15px;
       margin-top: 60px;
       margin-bottom: 60px;
+   }
+
+   .col img {
+      display: block;
    }
 
    .container-image {
@@ -68,9 +71,14 @@
    .informativa-privacy {
       font-size: 10px;
    }
-   .logo, img {
+   .logo{
     width: 130px;
     height: auto;
+   }
+
+   img {
+      width: 100%;
+      height: auto;
    }
 
    h5 {
